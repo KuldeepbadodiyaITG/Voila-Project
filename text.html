@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hem-bar {
+            /* display: none; */
+            width: 30px;
+            color: black;
+
+        }
+
+        /* .responsive-navigation-content {
+
+        } */
+
+        .sresponsive-navigation-content.open {
+            right: 0;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .responsive-navigation-content {
+            position: fixed;
+            top: 0;
+            right: -452px;
+            width: 450px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-left: 1px solid #ccc;
+            padding: 20px;
+            transition: right 0.3s;
+            z-index: 1000;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <div id="hem-burger" class="hem-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="icon icon-hamburger" viewBox="0 0 18 16">
+            <path fill="currentColor"
+                d="M1 .5a.5.5 0 1 0 0 1h15.71a.5.5 0 0 0 0-1zM.5 8a.5.5 0 0 1 .5-.5h15.71a.5.5 0 0 1 0 1H1A.5.5 0 0 1 .5 8m0 7a.5.5 0 0 1 .5-.5h15.71a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5">
+            </path>
+        </svg>
+    </div>
+
+    <div class="responsive-navigation-content" id="responsive-content">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+
+        <p onclick="closepage">×</p>
+    </div>
+    <script>
+
+        const hem = document.getElementById("hem-burger");
+        const side = document.getElementById("responsive-content");
+
+        hem.addEventListener("click", () => {
+            side.classList.toggle("open");
+        });
+
+        function closepage() {
+            side.classList.remove("open")
+        }
+    </script>
+</body>
+
+</html>
