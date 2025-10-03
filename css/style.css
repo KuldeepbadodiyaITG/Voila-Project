@@ -605,13 +605,15 @@ svg.icon.icon-caret {
         height: 21px;
     }
 
-    .responsive-navigation-content {
+   .responsive-navigation-content {
         width: 292px;
     }
 
     .side-panel {
         width: 100%;
+        right: -300%;
     }
+
     .header-icons {
         width: 111px;
         gap: 27px;
