@@ -24,14 +24,12 @@ body {
     --jdgm-border-radius: 0;
     --jdgm-reviewer-name-color: #607186;
     --jdgm-white-color: #ffffff;
-
 }
 
 .announcement-bar-wrapper {
     width: 100%;
     background: var(--jdgm-write-review-text-color);
 }
-
 .announcement-bar-content {
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -45,7 +43,6 @@ body {
     padding: 10px 10px;
     padding-bottom: 13px;
 }
-
 
 .banner-video {
     width: 100%;
@@ -275,7 +272,6 @@ ul.show-heading-page {
 
 .shop-bar-page:has(.shop-hover:hover) .icon-roted {
     transform: rotate(180deg);
-
 }
 
 .shop-hover:hover {
@@ -291,7 +287,6 @@ ul.show-heading-page {
     border-bottom: 2px solid black;
 
 }
-
 .shop-bar-page:has(.searchhh:hover) .searching {
     display: block;
 }
@@ -301,7 +296,6 @@ ul.show-heading-page {
     opacity: 1;
     transition-delay: 0s;
 }
-
 .search-bar {
     display: flex;
     justify-content: center;
@@ -321,8 +315,6 @@ ul.show-heading-page {
     opacity: 0;
     transition: visibility 0s 0.1s, opacity 0.5s linear 0.1s;
 }
-
-
 .search-body {
     background: whitesmoke;
     width: calc(100% - 64px);
@@ -417,7 +409,6 @@ div#sidePanel {
     /* max-height: 800px; */
     height: auto;
 }
-
 .responsive-navigation-content.open {
     left: 0;
     color: black;
@@ -425,8 +416,6 @@ div#sidePanel {
     flex-direction: column;
     gap: 20px;
 }
-
-
 .closer-button {
     font-size: xx-large;
     color: black;
@@ -477,8 +466,6 @@ span.login {
     left: 20px;
     font-size: larger;
 }
-
-
 .chat2>svg {
     width: 50px;
     height: 50px;
@@ -488,7 +475,6 @@ span.login {
 
     font-size: 20px;
 }
-
 /* ////////////////////////////////////////////////////////////// */
 .contact-us-page-content {
     margin: auto;
@@ -518,9 +504,7 @@ div#setting {
     display: none;
     width: 30px;
     color: black;
-
 }
-
 ul.navigation-bar-respon {
     display: flex;
     flex-direction: column;
@@ -563,15 +547,10 @@ svg.icon.icon-caret {
     .sarch>input {
         width: auto;
     }
-
     .side-panel {
         width: 320px;
     }
 }
-
-
-
-
 
 @media (max-width: 750px) {
     .banner-content {
@@ -593,7 +572,6 @@ svg.icon.icon-caret {
     .img.header-logo {
         max-width: 100px;
     }
-
     video.banner-video {
         height: 600px;
     }
@@ -633,5 +611,9 @@ svg.icon.icon-caret {
 
     .side-panel {
         width: 100%;
+    }
+    .header-icons {
+        width: 111px;
+        gap: 27px;
     }
 }
