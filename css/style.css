@@ -525,66 +525,6 @@ svg.icon.icon-caret {
     justify-content: space-between;
 }
 
-/* /////////section2/////// */
-
-.images-dogs {
-    max-width: calc(32% - 10px);
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: #00000014 0 0 24px;
-}
-
-.text-discription {
-    max-width: calc(32% - 10px);
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: #00000014 0 0 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background: #eee9e3;
-}
-
-.qualitiy-images {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-.image-discription {
-    margin: auto;
-    padding: 25px;
-    color: rgb(83 86 90);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.image-with-text-section-heading {
-    font-size: larger;
-    text-align: center;
-
-}
-
-.dog-quality-discription {
-    max-width: calc(36% - -211px);
-    text-align: center;
-}
-
-button.read-more {
-    background: rgb(67 88 112);
-    padding: 17px 35px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-size: medium;
-}
-
-.image-with-text-wrapper {
-    max-width: 1600px;
-    margin: auto;
-}
-
 /* ////media query// */
 @media (max-width: 990px) {
     .navigations {
