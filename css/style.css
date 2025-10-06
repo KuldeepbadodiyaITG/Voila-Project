@@ -234,6 +234,7 @@ ul.show-heading-page {
     gap: 20px;
     color: var(--jdgm-reviewer-name-color);
     padding: 20px;
+     cursor: pointer;
 }
 
 .card-headings {
@@ -242,6 +243,7 @@ ul.show-heading-page {
 
 .card-discription {
     color: var(--jdgm-reviewer-name-color);
+     cursor: pointer;
 }
 
 .card-images {
